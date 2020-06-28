@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: cursive, sans-serif;
+  background-color: #fffd94;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+  background-image:url("images/5 kids.png");
+  background-repeat: no-repeat;
+  background-size: 200px 100px;
+  background-position: 150px 1px;
+  background-image: url("images/3 kids.png") no-repeat;
+  background-size: 200px 100px;
+  background-position: top-right;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-right: 1.5px solid black;
+}
+
+.topnav a: hover {
+  background-color: red;
+  color: white;
+}
+
+.topnav-left {
+  float: left;
+}
+
+.content {
+  border-radius: 25px;
+  background: skyblue;
+  margin: 30px;
+  padding: 20px;
+  width: 800px;
+  height: 500px;
+  position: 150px 150px;
+}
+
+.text1-right {
+  font-size: 15px;
+  float: right;
+  width: 60%;
+}
+
+.button1 {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: #5498d1;
+}
+
+.button1:hover {
+  color: black;
+  background-color: #6bbcff;
+}
+
+.bottomnav {
+  overflow: hidden;
+  background-color: orange;
+  bottom: 0;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.buttomnav a{
+  align: center;
+  margin-right: 40px;
+  color: black;
+  text-align: center;
+  text-decoration: : none;
+  font-size: 20px;
+}
+
+.buttomnav a:hover {
+  color: white;
+}
+
+.buttomnav-right{
+  float: right;
+}
