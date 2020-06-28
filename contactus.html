@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name ="viewport"
+        content = "width+device-width, initial-scale=1">
+ <title>Contact Us</title>
+ <style>
+ body {
+   margin: 0;
+   font-family: cursive, sans-serif;
+   background-color: #fffd94;
+ }
+
+ .topnav {
+   overflow: hidden;
+   background-color: orange;
+   background-image:url("images/5 kids.png");
+   background-repeat: no-repeat;
+   background-size: 200px 100px;
+   background-position: 150px 1px;
+   background-image: url("images/3 kids.png") no-repeat;
+   background-size: 200px 100px;
+   background-position: top-right;
+   padding: 7px;
+ }
+
+ .topnav a {
+   float: right;
+   color: black;
+   text-align: center;
+   padding: 5px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   border-right: 1.5px solid black;
+ }
+
+ .topnav a:hover {
+   background-color: red;
+   color: white;
+ }
+
+ .topnav-left {
+   float: left;
+ }
+
+ .content {
+   border-radius: 25px;
+   margin: 30px;
+   padding: 20px;
+   width: 90%;
+   height: 500px;
+   position: 150px 150px;
+ }
+
+ .text1-right {
+   font-size: 15px;
+   float: right;
+   width: 60%;
+ }
+
+ .button1 {
+   font-family: cursive, sans-serif;
+   font-size: 20px;
+   border: none;
+   color: white;
+   border-radius: 12px;
+   padding: 10px 20px;
+   background-color: #5498d1;
+ }
+
+ .button1:hover {
+   color: black;
+   background-color: #6bbcff;
+ }
+
+ .bottomnav {
+   overflow: hidden;
+   background-color: orange;
+   bottom: 0;
+   margin-top: 40px;
+   padding: 20px;
+ }
+
+ .buttomnav a{
+   align: center;
+   margin-right: 40px;
+   color: black;
+   text-align: center;
+   text-decoration: : none;
+   font-size: 20px;
+ }
+
+ .buttomnav a:hover {
+   color: white;
+ }
+
+ .bottomnav-right {
+   float: right;
+ }
+
+ .mesej {
+   text-align: center;
+   font: 20px;
+   width: 100%;
+ }
+
+.Contact{
+  background-color: 	#9ACD32;
+  width: 30%;
+}
+
+input {
+  width: 50%;
+}
+
+textarea{
+  width: 50%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+}
+
+.col-25 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  text-align: right;
+
+}
+
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  text-align: left;
+
+}
+
+.button2 {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: #FF69B4;
+}
+
+.button2:hover {
+  color: black;
+  background-color: #FFB6C1;
+}
+ </style>
+</head>
+
+<body>
+ <div class="topnav">
+     <a href="#">CONTACT US </a>
+     <a href="#">ABOUT </a>
+     <a href="lesson.html">LESSON </a>
+
+    <div class ="topnav-left">
+      <a href="index.html" style="border:none"><img src ="logo.png" style="positon:absolute; width:70px"></a>
+    </div>
+  </div>
+
+<div class="content">
+  <center><h1 class="Contact">CONTACT US</h1></center><br><br>
+    <form class="mesej" action="contactus.html">
+       <div class="col-25">
+          <label for="name">NAME: </label>
+       </div>
+      <div class="col-75">
+          <input type="text" id="name" name="name"><br>
+      </div>
+      <div class="col-25">
+          <label for="subject">SUBJECT: </label>
+      </div>
+      <div class="col-75">
+          <input type="text" id="subject" name="subject"><br><br>
+      </div>
+      <div class="col-25">
+          <label for="message">MESSAGE: </label>
+      </div>
+      <div class="col-75">
+          <textarea id="message" name="message" rows="4" cols="20"></textarea><br><br>
+      </div>
+    <button class="button2">Send us Mail!</button>
+    </form>
+
+</div>
+
+<div class="bottomnav">
+  <a style="color: black">Follow Us:      </a>
+  <a href="#"><img src ="images/twt.png" style="width: 30px"> @brightkids</a>
+  <a href="#"><img src ="images/fb.png" style="width: 30px"> Bright Kids</a>
+  <a href="#"><img src ="images/ig.png" style="width: 30px"> @bright.kids</a>
+    <div class="bottomnav-right">
+      <a href="# style="font-size:15px>
+        Level 3, Eastern Tower, Jalan Ampang 1, 50450, Kuala Lumpur</a>
+      <a><img src ="images/logo.png" style="width: 50px"</a>
+    </div>
+ </div>
+</body>
+</html>
